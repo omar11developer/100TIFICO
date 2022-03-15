@@ -1,0 +1,12 @@
+{
+  "name": "100tifico",
+  "version": "1.0.0",
+  "description": "Single page aplication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Omar Menjivar <omarmenjivar083@gmail.com>",
+  "license": "MIT"
+}
