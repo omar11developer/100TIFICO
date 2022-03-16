@@ -39,7 +39,7 @@ module.exports = {
             //Permite trabajar con los archivos HTML
             {
                 inject:true,  //Cómo vamos a inyectar un valor a un archivo HTML.
-                template: '/public/index.html',  //Dirección donde se encuentra el template principal
+                template: './public/index.html',  //Dirección donde se encuentra el template principal
                 filename: './index.html' //El nombre que tendrá el archivo
             }
         )
