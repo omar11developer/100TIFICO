@@ -11,7 +11,21 @@ body {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
-
+.Encabezado{
+  width: 100%;
+  padding: 20px 0px;
+}
+.Encabezado h1{
+  color: #f2f2f2;
+  font-size: 30px;
+}
+.hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 2px;
+  background-color: #1C4247;
+}
 .header-main {
   display: flex;
   justify-content: space-between;
@@ -32,7 +46,10 @@ body {
   display: grid;
   justify-content: center;
 }
-
+.nav h1{
+  color: #fff;
+  margin-top: 20px;
+}
 .Characters {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
@@ -40,11 +57,17 @@ body {
   display: grid;
 }
 
+
 .Characters-inner {
   grid-template-columns: 1fr 2fr;
+  margin-top: 15px;
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+  background-color: #1C4247;
+  padding: 10px 10px 0px 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .Characters-card {
@@ -55,12 +78,13 @@ body {
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  border-radius: 8px;
 }
 
 .Characters-card img {
   width: 100%;
   height: auto;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .Characters-card h2 {
@@ -74,6 +98,7 @@ body {
   font-weight: 400;
   text-align: left;
   margin: 20px;
+  color: rgb(175, 175, 175);
 }
 
 .Characters-item {
@@ -105,6 +130,9 @@ body {
   text-decoration: none;
   color: #f7f7f7;
 }
+.Characters-card--span{
+  color: #fff;
+}
 
 @keyframes fade {
   from {
@@ -124,6 +152,29 @@ body {
   animation: spin 2s linear infinite;
 }
 
+.btn-regresar{
+
+  
+  color: #2B8894;
+  
+}
+
+.btn-regresar:hover{
+  color: #f2f2f2;
+}
+
+.Error404{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Error404-content{
+  text-align: center;
+  margin-top: 80px;
+}
+.Error404-content h2{
+  font-size: 60px;
+}
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }

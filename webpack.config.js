@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 //Trabaja para hacer render de los estilos 
 
+
 module.exports = {
     //Aquí se encuentra toda la configuración de lo que va a suceder. Modulo para exportar.
     entry: '/src/index.js', 
